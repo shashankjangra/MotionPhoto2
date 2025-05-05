@@ -126,7 +126,10 @@ if __name__ == "__main__":
             ]
             
             for image in images:
-                fname = f"{Path(image).with_suffix("")}"
+                # fname = f"{Path(image).with_suffix("")}"
+
+                fname = str(Path(image).with_suffix(""))
+
                 for ext in [".mp4", ".mov", ".MP4", ".MOV"]:
                     if f"{Path(fname).with_suffix(ext)}" in videos:
                         video = videos.pop(videos.index(fname + ext))
