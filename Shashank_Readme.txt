@@ -13,4 +13,4 @@ python3 motionphoto2.py --input-directory Sample
 Directly run this if you have the same mac.
 This not only makes the right thing but also deletes the image and video.
 
-python3 motionphoto2.py --input-directory Sample --overwrite --delete-video                     
+python3 motionphoto2.py --input-directory Sample --overwrite --delete-video
